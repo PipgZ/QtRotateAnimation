@@ -81,7 +81,7 @@ void RotateDemo::paintEvent(QPaintEvent *)
 
 void RotateDemo::onRotateTimer()
 {
-    m_rotateAlpha += 1;
+    m_rotateAlpha += 0.2;
     update();
-    if(m_rotateAlpha == 360) m_rotateAlpha = 0;
+    if(m_rotateAlpha >= 360) m_rotateAlpha = 0;
 }

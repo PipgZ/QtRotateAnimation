@@ -8,10 +8,12 @@ CONFIG += c++11 debug link_pkgconfig
 INCLUDEPATH += \
 
 SOURCES += \
+    animationdemo.cpp \
     main.cpp \
     rotatedemo.cpp
 
 HEADERS += \
+    animationdemo.h \
     rotatedemo.h
 
 RESOURCES += \
